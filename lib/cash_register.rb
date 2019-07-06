@@ -22,6 +22,6 @@ class CashRegister
   end
   
   def items
-    @items.collect {|item| @items << items}
+    @items
   end
 end
