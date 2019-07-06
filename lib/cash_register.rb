@@ -21,7 +21,7 @@ class CashRegister
     end
   end
   
-  def items
-    @items << add_item
+  def items(array)
+    array.collect {|item| @items << items}
   end
 end
