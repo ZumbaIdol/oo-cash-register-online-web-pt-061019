@@ -32,6 +32,6 @@ end
   
   def void_last_transaction
     @items.delete_at(-1)
-    @total = @total - last_transaction.to_f
+    @total = @total - @last_transaction.to_f
   end
 end
