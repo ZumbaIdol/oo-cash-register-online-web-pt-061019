@@ -80,4 +80,8 @@ describe 'CashRegister' do
       expect{cash_register.void_last_transaction}.to change{cash_register.total}.from(1.76).to(0.0)
     end
   end
+  
+  def items(array)
+    array.collect << items
+  end
 end
