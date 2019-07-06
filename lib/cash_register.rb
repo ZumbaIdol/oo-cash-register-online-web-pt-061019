@@ -23,4 +23,5 @@ class CashRegister
   def items(array)
     array.collect.push(add_item(title, price, quantity)
   end
+  end
 end
